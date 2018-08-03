@@ -1,0 +1,45 @@
+{
+  "name": "react-media-breakpoints",
+  "version": "1.0.0",
+  "description": "React media breakpoint helpers that build on the react-responsive MediaQuery component",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsanc89/react-media-breakpoints.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "lint": "eslint --fix --ext .jsx --ext .js .",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "mobile-detect": "^1.4.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-responsive": "^5.0.0",
+    "react-scripts": "1.1.4"
+  },
+  "keywords": [
+    "react",
+    "media-query",
+    "breakpoints"
+  ],
+  "author": "Daniel Sanchez",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/dsanc89/react-media-breakpoints/issues"
+  },
+  "homepage": "https://github.com/dsanc89/react-media-breakpoints#readme",
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.3.0",
+    "eslint": "^5.2.0",
+    "eslint-config-react-app": "^2.1.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.10.0",
+    "jest": "^23.4.2"
+  }
+}

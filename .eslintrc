@@ -1,0 +1,45 @@
+{
+  "env": {
+    "es6": true,
+    "node": true,
+    "jest": true,
+    "browser": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "plugins": ["react"],
+  "overrides": [
+    {
+      "files": ["*.test.js", "*_test.js","*.spec.js","*_spec.js"],
+      "rules": {
+        "init-declarations": "off",
+        "no-undef": "off",
+        "no-unused-expressions": "off"
+      }
+    }
+  ],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "init-declarations": [ "error", "always" ],
+    "linebreak-style": ["error", "unix"],
+    "no-caller": "error",
+    "no-console": "off",
+    "no-eval": "error",
+    "no-undef-init": "off",
+    "no-undef": "error",
+    "no-warning-comments": [ "warn", {
+      "terms": [ "TODO", "///TODO", "/// TODO", "FIXME", "///FIXME", "/// FIXME" ],
+      "location": "start"
+    }],
+    "quotes": ["error", "single"],
+    "semi": ["error", "never"]
+  }
+}
